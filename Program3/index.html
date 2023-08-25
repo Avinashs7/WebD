@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+    <script type="text/javascript">
+    var str=prompt("Enter string or number","");
+    if(!(isNaN(str)))
+    {
+        var num,rev=0,rem;
+        num=parseInt(str);
+        while(num!=0)
+        {
+            rem=num%10;
+            num=parseInt(num/10);
+            rev=rev*10+rem;
+        }
+        alert("Reverse of "+str+" is "+rev);
+    }
+    else
+    {
+        str=str.toUpperCase();
+        for(var i=0; i<str.length; i++)
+        {
+            var ch=str.charAt(i);
+            if(ch=='A'|| ch=='E'|| ch=='I'|| ch=='O'|| ch=='U'|| ch=='a'|| ch=='e'|| ch=='i'|| ch=='o'|| ch=='u')
+            break;
+        }
+        if(i<str.length)
+            alert("The position of the left most vowel is "+(i+1));
+        else
+            alert("No vowel found in the entered string");
+    }
+    </script>
+</body>
+</html>
