@@ -1,0 +1,21 @@
+h2{
+    color:blue;
+}
+div{
+    background-color: rgb(163, 249, 163);
+}
+table{
+    background-color: green;
+}
+table, th, tr, td{
+    border: 1px solid black;
+}
+td{
+    padding: 15px;
+}
+span{
+    font-size: 35px;
+    color:rgb(0, 112, 248);
+    background-color: pink;
+    font-style: italic;
+}

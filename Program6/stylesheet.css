@@ -1,0 +1,39 @@
+h1, h2{
+    color:red;
+
+}
+.form{
+    background-image: linear-gradient(rgb(30, 238, 30),rgb(241, 235, 75));
+    text-align: center;
+    font-size: 18px;
+    margin:20px 500px;
+}
+input{
+    border: 1px solid;
+    margin:5px 0;
+}
+select{
+        margin:5px 0;
+
+}
+textarea{
+    height: 100px;
+    width:400px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    border:1px solid;
+    color:white;
+    height: 40px;
+    width: 300px;
+    font-size: 22px;
+    background-image:linear-gradient(rgb(20, 20, 244),rgb(157, 166, 247));
+    border-radius: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+input[type="submit"]:hover{
+    transition: .5s;
+    background-image:linear-gradient(rgb(136, 20, 244),rgb(190, 141, 246));
+
+}
