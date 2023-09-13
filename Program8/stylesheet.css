@@ -1,0 +1,32 @@
+body{
+    margin:20% 40%;
+    background-color: black;
+    color: green;
+}
+textarea{
+    width:220px;
+}
+legend{
+    font-size: x-large;
+}
+textarea{
+    background-color: black;
+    color: green;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow:2px 1px ;
+}
+button{
+    /* padding: 13px; */
+    margin: 1px;
+    box-shadow:2px 1px;
+    width:40px;
+    height: 40px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    color: green;
+    background-color: black;
+}
+#plus{
+    height: 80px;
+}

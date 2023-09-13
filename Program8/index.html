@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <fieldset>
+    <table>
+        <legend>Calculator</legend>
+        <textarea id="ans"></textarea>
+        <tr>
+            <td><button onclick="input(9)">9</button></td>
+            <td><button onclick="input(8)">8</button></td>
+            <td><button onclick="input(7)">7</button></td>
+            <td><button onclick="operator('/')">/</button></td>
+            <td><button onclick="empty()">AC</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="input(6)">6</button></td>
+            <td><button onclick="input(5)">5</button></td>
+            <td><button onclick="input(4)">4</button></td>
+            <td><button onclick="operator('-')">-</button></td>
+            <td><button onclick="backspace()"><i class="material-icons">backspace</i></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="input(3)">3</button></td>
+            <td><button onclick="input(2)">2</button></td>
+            <td><button onclick="input(1)">1</button></td>
+            <td><button onclick="operator('*')">*</button></td>
+            <td rowspan="2"><button id="plus" onclick="operator('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="input(0)">0</button></td>
+            <td><button onclick="set()">.</button></td>
+            <td><button onclick="equal()">=</button></td>
+        </tr>
+    </table>
+</fieldset>
+    <!-- <script>
+        let op1=prompt("Enter first operand");
+        let op=prompt("Enter operation to perform","");
+        let op2=prompt("Enter second operand");
+        let ch=op.charAt(0);
+        op1=parseInt(op1);
+        op2=parseInt(op2);
+        switch(ch){
+            case '+':
+                alert("The result: "+(op1+op2));
+                break;
+            case '-':
+                alert("The result: "+(op1-op2));
+                break;
+            case '*':
+                alert("The result: "+(op1*op2));
+                break;     
+            case '/':
+                if(op2==0){
+                    alert(" Error : Divide by zero");
+                }
+                else{
+                    alert("The result: "+(op1/op2));
+                }
+                break;
+        }
+    </script> -->
+</body>
+</html>
